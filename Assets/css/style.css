@@ -1,0 +1,109 @@
+:root {
+    --PrimaryColor: rgb(0, 208, 255);
+    --BackgroundColor: rgb(44, 44, 44);
+    --ContainerColor: rgb(65, 65, 65);
+    --HeaderColor: rgba(22, 22, 22, .9);
+}
+
+* {
+    font: 25px sans-serif;
+}
+
+body {
+    background: var(--BackgroundColor);
+    color: white;
+}
+
+header {
+    background: var(--HeaderColor);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+}
+
+h1 {
+    margin-right: auto;
+    font: bolder 50px sans-serif;
+    background: var(--PrimaryColor);
+    padding: 15px;
+    color: var(--HeaderColor);
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--PrimaryColor);
+}
+
+a {
+    text-decoration: none; 
+    color: var(--PrimaryColor);
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: var(--PrimaryColor); 
+   }
+
+.nav {
+    color: var(--PrimaryColor);
+    font: bold 25px sans-serif;
+    margin: 15px;
+}
+
+main {
+    margin: 10px;
+}
+
+h2 {
+    color: var(--PrimaryColor);
+    font: bold 30px sans-serif;
+    padding: 10px;
+}
+
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 12px;
+    padding: 24px;
+    width: 97%;
+    background: var(--ContainerColor);
+    border: solid var(--PrimaryColor);
+}
+
+img[src$="images/me.png"] {
+    margin: 12px;
+    padding: 12px;
+    height: 400px;
+}
+
+p {
+    line-height: 50px;
+}
+
+.container p {
+    max-width: 70%;
+    
+}
+
+img[src*="images/project-1"] {
+    padding: 15px;
+    height: 500px;
+}
+
+img[src*="images/project-1"]:hover {
+cursor: pointer;
+transform: rotate(5deg) scale(1.1);
+}
+
+ul li {
+    line-height: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 15px
+}
