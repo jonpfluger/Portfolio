@@ -6,7 +6,12 @@ This website is my portfolio showcasing my work. I will continue to update it as
 
 While making this portfolio, I learned about Flexbox and how to make a responsive design. This makes the website mobile friendly.
 
+
 ## Screenshot
 
+![Screenshot of my portfolio](Assets/images/screenshot.png)
+
+
 ## Link
+
 https://jonpfluger.github.io/Portfolio/
