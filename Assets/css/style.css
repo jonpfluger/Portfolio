@@ -91,7 +91,12 @@ img[src*="images/project-1"] {
     height: 500px;
 }
 
-img[src*="images/project-1"]:hover {
+img[src*="images/landing-page"] {
+    padding: 15px;
+    height: 400px;
+}
+
+img[src*="images/project-1"]:hover, img[src*="images/landing-page"]:hover {
 cursor: pointer;
 transform: rotate(5deg) scale(1.1);
 }
