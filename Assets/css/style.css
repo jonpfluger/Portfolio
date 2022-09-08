@@ -86,6 +86,10 @@ p {
     max-width: 70%;
 }
 
+.sub-container h3 {
+    text-align: center;
+}
+
 img[src*="images/project-1"] {
     padding: 15px;
     height: 500px;
