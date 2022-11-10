@@ -105,7 +105,7 @@ img[src*="images/landing-page"] {
     height: 400px;
 }
 
-img[src*="images/project-1"]:hover, img[src*="images/celebrity-astrology"]:hover, img[src*="images/landing-page"]:hover {
+img[src*="images/project-1"]:hover, img[src*="images/celebrity-astrology"]:hover, img[src*="images/note-taker"]:hover {
 cursor: pointer;
 transform: rotate(5deg) scale(1.1);
 }
