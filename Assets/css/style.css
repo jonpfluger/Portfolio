@@ -72,10 +72,11 @@ h2 {
     border: solid var(--PrimaryColor);
 }
 
-img[src$="images/me.png"] {
+img[src$="images/me-2.png"] {
     margin: 12px;
-    padding: 12px;
+    padding: 0px;
     height: 400px;
+    box-shadow: 0px 10px 10px 0px var(--HeaderColor);
 }
 
 p {
