@@ -91,13 +91,13 @@ p {
     text-align: center;
 }
 
-img[src*="images/project-1"], img[src*="images/celebrity-astrology"], img[src*="images/note-taker"], img[src*="images/team-profile-generator"] {
+img[src*="images/house-rules"], img[src*="images/celebrity-astrology"], img[src*="images/note-taker"], img[src*="images/team-profile-generator"] {
     padding: 15px;
     height: 400px;
     max-width: 500px;
 }
 
-img[src*="images/project-1"]:hover, img[src*="images/celebrity-astrology"]:hover, img[src*="images/note-taker"]:hover, img[src*="images/team-profile-generator"]:hover {
+img[src*="images/house-rules"]:hover, img[src*="images/celebrity-astrology"]:hover, img[src*="images/note-taker"]:hover, img[src*="images/team-profile-generator"]:hover {
     cursor: pointer;
     transform: rotate(5deg) scale(1.1);
 }
