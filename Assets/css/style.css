@@ -76,6 +76,7 @@ img[src$="images/me-2.png"] {
     margin: 12px;
     padding: 0px;
     height: 400px;
+    max-width: 90%;
     box-shadow: 0px 10px 10px 0px var(--HeaderColor);
 }
 
@@ -94,7 +95,8 @@ p {
 img[src*="images/house-rules"], img[src*="images/celebrity-astrology"], img[src*="images/note-taker"], img[src*="images/team-profile-generator"] {
     padding: 15px;
     height: 400px;
-    max-width: 500px;
+    width: 500px;
+    max-width: 100%;
 }
 
 img[src*="images/house-rules"]:hover, img[src*="images/celebrity-astrology"]:hover, img[src*="images/note-taker"]:hover, img[src*="images/team-profile-generator"]:hover {
