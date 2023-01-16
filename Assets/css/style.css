@@ -7,7 +7,9 @@
 }
 
 * {
-    font: 25px calibri;
+    font-family: "Calibri", Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
 }
 
 body {
@@ -25,7 +27,6 @@ header {
 
 h1 {
     margin-right: auto;
-    font: bolder 50px sans-serif;
 }
 
 nav {
@@ -46,7 +47,7 @@ a:visited {
 
 .nav {
     color: var(--PrimaryColor);
-    font: bold 25px sans-serif;
+    font-size: 30px;
     margin: 15px;
 }
 
@@ -56,7 +57,7 @@ main {
 
 h2 {
     color: var(--PrimaryColor);
-    font: bold 30px sans-serif;
+    font-size: 30px;
     padding: 10px;
 }
 
