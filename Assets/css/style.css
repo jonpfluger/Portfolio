@@ -1,6 +1,5 @@
 :root {
     --PrimaryColor: rgb(0, 208, 255);
-    /* --BackgroundColor: rgb(44, 44, 44); */
     --BackgroundColor: rgb(44, 44, 44);
     --ContainerColor: rgb(65, 65, 65);
     --HeaderColor: rgba(22, 22, 22, .9);
@@ -33,6 +32,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     color: var(--PrimaryColor);
+    margin-right: 50px;
 }
 
 a {
