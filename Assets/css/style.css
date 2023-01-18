@@ -104,7 +104,7 @@ img[src*="images/house-rules"]:hover, img[src*="images/celebrity-astrology"]:hov
 }
 
 ul li {
-    line-height: 50px;
+    line-height: 40px;
 }
 
 footer {
@@ -112,4 +112,21 @@ footer {
     justify-content: center;
     align-items: center;
     font: 15px;
+}
+
+/* @media only screen and (max-width: 1223px) {
+    nav {
+        background-color: red;
+    }
+} */
+
+@media only screen and (max-width: 600px) {
+    p {
+        line-height: 30px;
+        font-size: 18px;
+    }
+    
+    a, h2 {
+        font-size: 20px;
+    }
 }
