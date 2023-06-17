@@ -43,7 +43,7 @@ a {
 a:visited { 
     text-decoration: none; 
     color: var(--PrimaryColor); 
-   }
+}
 
 .nav {
     color: var(--PrimaryColor);
